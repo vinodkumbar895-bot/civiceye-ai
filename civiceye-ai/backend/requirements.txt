@@ -1,1 +1,6 @@
-fastapi\nuvicorn[standard]\npython-multipart\npython-dotenv\ngoogle-genai\nsqlalchemy\n
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+google-genai
+sqlalchemy
