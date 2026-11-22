@@ -19,7 +19,7 @@ If unclear, choose Other and Medium. Do not infer an exact address.
 Severity is only an AI triage suggestion and needs human verification.
 '''
     response = client.models.generate_content(
-        model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
+        model=os.getenv("GEMINI_MODEL", "gemini-3-flash"),
         contents=[prompt, types.Part.from_bytes(data=image_bytes, mime_type=mime_type)],
         config=types.GenerateContentConfig(response_mime_type="application/json"),
     )
